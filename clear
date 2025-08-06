@@ -1,0 +1,79 @@
+[33mcommit 8e7fc54a8fb452d488a48197c1f1bd4c788bda93[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfase_1[m[33m)[m
+Merge: 27a00bb 24e72c1
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 17:12:16 2025 -0500
+
+    correcion de errores
+
+[33mcommit 27a00bb62a5e8e82f61d489760ec1e4b34d55a98[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 17:03:47 2025 -0500
+
+    pag2 inicio v3
+
+[33mcommit 24e72c1896d192c7f55fe54d8fb557068cbcd691[m[33m ([m[1;32mmain[m[33m)[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 17:01:38 2025 -0500
+
+    pag2 v3.1
+
+[33mcommit 5e69f1a28c2193480b3e620ab57a0d7332af15f9[m
+Merge: 01b4716 b2b3705
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 16:59:14 2025 -0500
+
+    Merge branch 'main' into fase_1
+
+[33mcommit b2b37052bf7f8634190709edafb84388e54cbb49[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 16:57:31 2025 -0500
+
+    pag2 v3
+
+[33mcommit 01b4716ca481cd547da186c8dfd6601406650e68[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 16:55:35 2025 -0500
+
+    pag2 vercion 2
+
+[33mcommit c7893a469014cd3463f71d599c92c4ac2190ba6f[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 16:42:37 2025 -0500
+
+    implementacion de sub titulo
+
+[33mcommit d155d033fec91c7be436066c041d1349433969c9[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 16:25:36 2025 -0500
+
+    creacion de interfas de usuarios
+
+[33mcommit eb7fae906768c56113b9a4ed28406f052b9a5563[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Wed Aug 6 12:08:16 2025 -0500
+
+    creacion de una pagina nueva
+
+[33mcommit a57bc802166c597690480ee9614e4d7cca21c5fc[m[33m ([m[1;33mtag: [m[1;33mclase_1[m[33m)[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Tue Aug 5 21:19:41 2025 -0500
+
+    se agrego una etiqueta de titulo
+
+[33mcommit 72702ca991489e38ffc1d1d61d26baa9dbdf5b84[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Tue Aug 5 20:53:35 2025 -0500
+
+    se creo el archivo gitignore
+
+[33mcommit 1ffbb9251d7227a5220a4cf3d0ab5e6fa62ed068[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Tue Aug 5 16:46:04 2025 -0500
+
+    se implemento el formato html
+
+[33mcommit e6a67bad74bdc2691a93360cc742619d7fc77056[m
+Author: Jesus <jesuscupueran34@live.com>
+Date:   Tue Aug 5 16:12:47 2025 -0500
+
+    este es mi primer commit
