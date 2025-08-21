@@ -1,7 +1,7 @@
 # 🧪 Pruebas Git
 
-Este repositorio fue creado con **fines educativos** para realizar pruebas y ejercicios prácticos del curso de **Git y GitHub**.  
-Aquí se experimentará con comandos, ramas, fusiones, conflictos y otras funcionalidades, **sin afectar proyectos reales**.
+Este repositorio fue creado con **fines educativos** para realizar pruebas y ejercicios prácticos del curso de **Git y GitHub**
+Aquí se experimentará con comandos, ramas, fusiones, conflictos y otras funcionalidades, **sin afectar proyectos reales**
 
 ---
 
