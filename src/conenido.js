@@ -1,4 +1,4 @@
-const main = document.getElementById("content_git");
+const main = document.querySelector("main");
 const languageSelect = document.getElementById("languageSelect");
 const searchInput = document.getElementById("searchInput");
 
