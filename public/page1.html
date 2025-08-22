@@ -3,9 +3,40 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas de Git</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+    <title>Notas de GitHub y Git</title>
+   <link href="../src/output.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold text-center">Comandos Git</h1>
+  </header>
+
+  <!-- Selector de idioma -->
+  <section class="p-6 max-w-4xl mx-auto flex justify-end">
+    <select id="languageSelect" class="border border-gray-300 p-2 rounded">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </section>
+
+  <!-- Buscador -->
+  <section class="p-6 max-w-4xl mx-auto">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="🔍 Buscar informacion..." 
+      class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+  </section>
+
+  <!-- Contenido -->
+  <main id="content_github" class="p-6 max-w-4xl mx-auto space-y-6">
+  </main>
+
+  <!-- Scripts -->
+  <script src="../src/es_en.js"></script>
+  <script src="../src/conenido.js"></script>
+</body>
 </html>
