@@ -1,4 +1,4 @@
-const content = {
+const content_git = {
   es: [
     {
       title: "Visualizar versión de Git",
