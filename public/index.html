@@ -13,51 +13,29 @@
     <h1 class="text-3xl font-bold text-center">Comandos Git</h1>
   </header>
 
+  <!-- Selector de idioma -->
+  <section class="p-6 max-w-4xl mx-auto flex justify-end">
+    <select id="languageSelect" class="border border-gray-300 p-2 rounded">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </section>
+
   <!-- Buscador -->
   <section class="p-6 max-w-4xl mx-auto">
     <input 
       type="text" 
       id="searchInput" 
       placeholder="🔍 Buscar comando..." 
-      class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-    >
+      class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
   </section>
 
   <!-- Contenido -->
   <main id="content" class="p-6 max-w-4xl mx-auto space-y-6">
-    
-    <!-- Ejemplo de sección -->
-    <section class="bg-white p-5 rounded-2xl shadow-md">
-      <h2 class="text-xl font-semibold text-blue-600">Visualizar versión de Git</h2>
-      <ul class="list-disc pl-6 mt-2 space-y-1">
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git --version</code></li>
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git -v</code></li>
-      </ul>
-    </section>
-
-    <section class="bg-white p-5 rounded-2xl shadow-md">
-      <h2 class="text-xl font-semibold text-blue-600">Panel de ayuda</h2>
-      <ul class="list-disc pl-6 mt-2 space-y-1">
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git -h</code></li>
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git --help</code></li>
-      </ul>
-    </section>
-
-    <section class="bg-white p-5 rounded-2xl shadow-md">
-      <h2 class="text-xl font-semibold text-blue-600">Configuración inicial</h2>
-      <p class="text-sm text-gray-600 mb-2">Importante: si no se configura, no se puede usar Git correctamente.</p>
-      <ul class="list-disc pl-6 mt-2 space-y-1">
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git config --global user.name "nombre"</code></li>
-        <li><code class="bg-gray-200 px-2 py-1 rounded">git config --global user.email "correo"</code></li>
-      </ul>
-    </section>
-
-    <!-- Aquí irían todas las demás secciones con el contenido que me diste -->
-    <!-- (puedo completarlo por ti si quieres el listado entero en HTML limpio) -->
-
   </main>
 
-  <!-- Script buscador -->
-  <script src="../src/utils.js"></script>
+  <!-- Scripts -->
+  <script src="../src/es_en.js"></script>
+  <script src="../src/conenido.js"></script>
 </body>
 </html>
