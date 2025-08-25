@@ -1,4 +1,4 @@
-const main = document.querySelector("main");
+const main = document.querySelector("main"); //Trae el id del contenedor actual
 const languageSelect = document.getElementById("languageSelect");
 const searchInput = document.getElementById("searchInput");
 
@@ -6,7 +6,7 @@ const searchInput = document.getElementById("searchInput");
 function renderContent(lang) {
   main.innerHTML = "";
 
-  // Elegir el contenido según el id del main
+  // Llama al id del contenerdor para poder usarlo en la funcion
   const content = main.id === "content_git" ? content_git : content_github;
 
   content[lang].forEach((section) => {
@@ -40,6 +40,8 @@ function renderContent(lang) {
 
 // Función para filtrar secciones
 function filterSections() {
+  // Llama al id del contenerdor para poder usarlo en la funcion
+  const content = main.id === "content_git" ? content_git : content_github;
   const query = searchInput.value.toLowerCase();
   const sections = main.querySelectorAll("section");
 
