@@ -15,27 +15,35 @@
   </head>
   <body class="bg-gray-100 text-gray-800 font-sans">
     <!-- Header -->
-    <header class="bg-blue-600 text-white p-6 shadow-md">
-      <h1 class="text-3xl font-bold text-center">Comandos Git</h1>
+    <header class="bg-blue-600 text-white p-1 shadow-md">
+      <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
+        <div class="flex lg:flex-1 px-6">
+          <h1 class="text-3xl font-bold">Comandos Git</h1>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12 px-6">
+          <!-- Buscador -->
+          <section class="p-5 max-w-4xl mx-auto">
+            <input type="text" id="searchInput" placeholder="🔍 Buscar informacion..."
+              class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </section>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end px-6">
+          <!-- Selector de idioma -->
+          <section class="p-6 max-w-4xl mx-auto flex justify-end">
+            <select id="languageSelect" class="border border-gray-300 p-2 rounded">
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+          </section>
+        </div>
+      </nav>
+
+      
     </header>
 
-    <!-- Selector de idioma -->
-    <section class="p-6 max-w-4xl mx-auto flex justify-end">
-      <select id="languageSelect" class="border border-gray-300 p-2 rounded">
-        <option value="es">Español</option>
-        <option value="en">English</option>
-      </select>
-    </section>
+   
 
-    <!-- Buscador -->
-    <section class="p-6 max-w-4xl mx-auto">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="🔍 Buscar informacion..."
-        class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-      />
-    </section>
+    
 
     <!-- Contenido -->
     <main id="content_github" class="p-6 max-w-4xl mx-auto space-y-6"></main>
