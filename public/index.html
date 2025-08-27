@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notas de Git y GitHub</title>
-   <link href="../src/output.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notas de Git y GitHub</title>
+    <!-- favico desktop -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/ico/favicon-32x32.png" />
+    <link rel="icon" type="image/x-icon" href="../assets/ico/favicon.ico" />
+    <!-- favico mobil -->
+    <link rel="apple-touch-icon" href="../assets/ico/apple-touch-icon.png" />
+    <link rel="manifest" href="../assets/ico/site.webmanifest" />
+    <!-- tailwindcss -->
+    <link href="../src/output.css" rel="stylesheet" />
+  </head>
 
-  <!-- Header -->
-  <header class="bg-blue-600 text-white p-6 shadow-md">
-    <h1 class="text-3xl font-bold text-center">Comandos Git</h1>
-  </header>
-
-  <!-- Selector de idioma -->
-  <section class="p-6 max-w-4xl mx-auto flex justify-end">
-    <select id="languageSelect" class="border border-gray-300 p-2 rounded">
-      <option value="es">Español</option>
-      <option value="en">English</option>
-    </select>
-  </section>
-
-  <!-- Buscador -->
-  <section class="p-6 max-w-4xl mx-auto">
-    <input 
-      type="text" 
-      id="searchInput" 
-      placeholder="🔍 Buscar informacion..." 
-      class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-  </section>
-
-  <!-- Contenido -->
-  <main id="content_git" class="p-6 max-w-4xl mx-auto space-y-6">
-  </main>
-
-  <!-- Scripts -->
-  <script src="../src/es_en.js"></script>
-  <script src="../src/conenido.js"></script>
-</body>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-1 shadow-md">
+      <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
+        <!-- Titulo -->
+        <div class="flex lg:flex-1 px-6 w-full">
+          <h1 class="text-3xl font-bold"> Comandos
+            <a href="#" class="bg-white text-blue-600 px-2 py-1 rounded hover:bg-gray-100">Git</a> / 
+            <a href="./github.html">GitHub</a>
+          </h1>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12 px-6 w-full">
+          <!-- Buscador -->
+          <section class="p-5 max-w-4xl mx-auto">
+            <input type="text" id="searchInput" placeholder="🔍 Buscar informacion..."
+              class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </section>
+        </div>
+        <!-- Selector de idioma -->
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end px-6 w-full">
+          <select id="languageSelect"
+            class="bg-blue-600 text-blue-50 border border-gray-300 rounded-lg px-3 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer transition hover:bg-gray-100">
+            <option value="es">Español</option>
+            <option value="en">Ingles</option>
+          </select>
+        </div>
+      </nav>
+    </header>
+    <!-- Contenido -->
+    <main id="content_git" class="p-6 max-w-4xl mx-auto space-y-6"></main>
+    <!-- Scripts -->
+    <script src="../src/es_en.js"></script>
+    <script src="../src/conenido.js"></script>
+  </body>
 </html>
